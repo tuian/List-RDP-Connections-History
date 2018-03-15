@@ -1,3 +1,4 @@
+function ListLogged-inUsers {
 <#
 .SYNOPSIS
 This script will list the logged-in users's RDP Connections History.
@@ -35,4 +36,5 @@ foreach($User in $AllUser)
     		}
 	}
 	Write-Host "----------------------------------"	
+ }
 }
